@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  project1-nextjs:
+    container_name: saas_nextjs
+    build:
+      context: ./project1-nextjs
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+
+  project2-astro:
+    container_name: saas_astro
+    build:
+      context: ./project2-astro
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    restart: unless-stopped

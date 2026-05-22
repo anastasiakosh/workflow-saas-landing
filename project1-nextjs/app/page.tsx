@@ -15,7 +15,7 @@ export default function LandingPage() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6 text-center max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter mb-6">Automate your work.<br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-purple-500">Scale your impact.</span></h1>
-        <p className="text-xl text-gray-400 mb-10">The B2B SaaS platform that connects your tools, automates routine tasks, and accelerates your team's velocity.</p>
+        <p className="text-xl text-gray-400 mb-10">The B2B SaaS platform that connects your tools, automates routine tasks, and accelerates your team&apos;s velocity.</p>
         <div className="flex justify-center space-x-4">
           <button className="bg-brand-500 text-white px-8 py-3 rounded-md font-medium hover:bg-brand-600 transition">Start for free</button>
           <button className="bg-surface border border-border text-white px-8 py-3 rounded-md font-medium hover:bg-gray-800 transition">Book a Demo</button>
